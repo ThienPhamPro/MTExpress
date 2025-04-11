@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miền Tây Express - Gửi hàng quốc tế</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f4f4f4;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 0;
+    }
+    header .content {
+      position: relative;
+      z-index: 1;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    nav {
+      background: #00529B;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-fixed {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+    .contact-fixed a {
+      display: block;
+      margin-bottom: 10px;
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    .testimonial {
+      font-style: italic;
+      background: #f9f9f9;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 5px solid #00529B;
+    }
+    footer {
+      background:#00529B;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <h1>Chào mừng đến với MTExpress</h1>
+      <p>Dịch vụ vận chuyển hàng quốc tế chuyên nghiệp</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#dichvu">Dịch vụ</a>
+    <a href="#banggia">Bảng giá</a>
+    <a href="#lienhe">Liên hệ</a>
+  </nav>
+  <section id="gioithieu">
+    <h2>Giới thiệu</h2>
+    <p>✅ Với kinh nghiệm lâu năm và kiến thức sâu rộng trong ngành vận chuyển hàng hóa quốc tế, chúng tôi cam kết mang lại cho bạn một dịch vụ chuyên nghiệp, đáng tin cậy và hiệu quả. Đội ngũ nhân viên giàu kinh nghiệm sẽ đảm bảo hàng hóa của bạn đến đúng nơi đúng lúc.</p>
+    <p>✅ Chúng tôi sẽ tư vấn và cung cấp các giải pháp vận chuyển tối ưu để tiết kiệm chi phí và thời gian.</p>
+    <p>✅ MIỀN TÂY EXPRESS là địa điểm chất lượng, uy tín với nhiều ưu đãi liên tục được cập nhật.</p>
+  </section>
+  <section id="dichvu">
+    <h2>Dịch vụ</h2>
+    <ul>
+      <li>✅ Hỗ Trợ Nhận Hàng Tại Nhà</li>
+      <li>✅ Cước vận chuyển rẻ, cạnh tranh</li>
+      <li>✅ Hỗ trợ pick up nội thành miễn phí</li>
+      <li>✅ Hỗ trợ đóng gói, hút chân không</li>
+      <li>✅ Có tracking theo dõi đơn hàng</li>
+      <li>✅ Giá tốt cho các mức +21kg, +31kg, +71kg +100kg</li>
+    </ul>
+  </section>
+  <section id="banggia">
+    <h2>Bảng giá</h2>
+    <p>Liên hệ để nhận bảng giá chi tiết theo từng quốc gia và loại hàng gửi.</p>
+  </section>
+  <section>
+    <h2>Khách hàng nói gì?</h2>
+    <div class="testimonial">"Dịch vụ tuyệt vời, nhân viên hỗ trợ nhanh chóng và nhiệt tình!" – Chị Linh, Cần Thơ</div>
+    <div class="testimonial">"Gửi hàng qua Mỹ chỉ mất vài ngày, rất đáng tin cậy!" – Anh Phúc, Vĩnh Long</div>
+  </section>
+  <section id="lienhe">
+    <h2>Liên hệ</h2>
+    <p>📞 Hotline: 090 949 8338 | 0903 909 338</p>
+    <p>📧 Email: thienpham040188@gmail.com</p>
+    <p>🏢 Địa chỉ: 7 Nam Kỳ Khởi Nghĩa, P. Tân An, Q. Ninh Kiều</p>
+    <p>🌐 Fanpage: <a href="https://www.facebook.com/Dichvuguihangquoctetaicantho" target="_blank">Facebook Page</a></p>
+    <p>📍 <a href="https://maps.app.goo.gl/njxFxp2DWthtAPTi6" target="_blank">Xem bản đồ</a></p>
+  </section>
+  <div class="contact-fixed">
+    <a href="tel:0909498338"><i class="fas fa-phone"></i> Gọi ngay</a>
+    <a href="https://zalo.me/0909498338" target="_blank"><i class="fas fa-comment-dots"></i> Zalo Chat</a>
+    <a href="https://m.me/Dichvuguihangquoctetaicantho" target="_blank" style="background:#0084FF"><i class="fab fa-facebook-messenger"></i> Messenger</a>
+  </div>
+  <footer>
+    <p>&copy; 2025 Miền Tây Express. All rights reserved.</p>
+    <p>Website by Miền Tây Express Team</p>
+  </footer>
+</body>
+</html>
